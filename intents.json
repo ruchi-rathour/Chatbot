@@ -1,0 +1,89 @@
+{"intents": [
+        {"tag": "start_conversation",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hi"],
+         "responses": ["Hello, I'm sure you love squash", "Happy to have you here", "Good to see you again", "Hi there, how can I help?","I guess Akshay sent you here"],
+         "context": [""]
+        },
+
+	{"tag": "what_are_you",
+         "patterns": ["What is your name?", "what are you?", "who are you?","your name pls?"],
+         "responses": ["Hi, I'm  Squash BoT", "I'm Squash BoT developed by akshay", "Call me SqBoT"],
+         "context": [""]
+        },
+        {"tag": "end_conversation",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Have a lovely Squash!", "Have a nice Squash playing time", "Enjoy the game!","Have fun with the balls"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","Do enjoy the game","Have fun on squash court"],
+         "context": [""]
+        },
+        {"tag": "confused",
+         "patterns": [],
+         "responses": ["Sorry, kindly rephrase the question","Sorry, can't understand you", "Please give me more information", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can you help me?", "What can you do?", "What help you provide?", "How can you be helpful?", "What support do you offered","What do you know?","what help?","What are you about?"],
+         "responses": ["I can guide you through how to get started with squash"],
+         "context": [""]
+        },
+  	{"tag": "bot_scope",
+         "patterns": ["What do you know about squash?", "tell me about squash?", "Do you really know lots about squash?", "what exactly do you know about squash","what do you mean by guides through squash?"],
+         "responses": ["I know quiet some rules in squash, game types, top players and many more","I know some key words like tie-break, love, advantage and service to mention a few","Ask me a question about squash and I will answer to the best of my knowledge"],
+         "context": [""]
+        },
+        {"tag": "top_players",
+         "patterns": ["Who are the top players in squash?", "List the top squash players", "Top players?", "Who are the best players in squash", "The best players are?", "Do you know the top players in squash?"],
+         "responses": ["As at May 2021, \nMen: Ali Farag, Mohammed Elshorbagy, Tarek Momen, Paul Coll and Karim Abdel Gawad .  \nFemales: Nour El Sherbini, Nouran Gohar, Nour El Tayeb, Camille Serme, Hania El Hammamy"],
+         "context": [""]
+        },
+        {"tag": "general_rules",
+         "patterns": ["What are the general rules of squash?", "List the rules in squash?", "Do you know general squash rules?", "What are the general playing rules in squash?", "Squash rules ?" ],
+         "responses": ["A ball must land within bounds for play to continue; if a player hits the ball outside of bounds, this results in the loss of the point for them.\nPlayers/teams cannot interfere with the opposing players.\nPlayers/teams cannot carry the ball or catch it with the hand.\nPlayers cannot hit the ball twice.\nPlayers must wait until the ball bounces from the front wall before they can return it.\nA player that does not return a live ball before it bounces twice loses the point.\nIf the ball hits or touches the players, that counts as a penalty.\nAny ball that bounces on the lines of boundary are considered bad.\nA serve must bounce first in the opposing quarter before the receiving player can return it. "],
+         "context": [""]
+        },
+        {"tag": "kits",
+         "patterns": ["What are the squash kits I need to get started?","What are the squash wears I need to get started?", "list squash kits for beginner", "list squash wears for beginner", "list the full squash kits","list the full squash wears", "Squash kits?","Squash wears?","Squash kits will be?","Squash wears will be?"],
+         "responses": ["Squash shoes, Squash clothes, Squash Ball, Squash headgear, Water bottles, Towels, Wrist bands and Kit bag"],
+         "context": [""]
+        },
+        {"tag": "court_lines",
+         "patterns": ["Each lines on the Squash court means whats?", "Why are there so many lines on the Squash court?", "where is the base line on the Squash court, What do the Squash court lines mean?"],
+         "responses": ["Baseline - The baselines are the lines that determines the boundaries of play going lengthwise. They are also where a player serves behind.\nCenter Mark - The center mark determines the two halves of the Squash court. It mainly helps with service to determine where a player should stand prior to serving.\nCenter Line - The center line divides the two service boxes into a distinct left service box and right service box. Landing a serve on the line is considered good.\n Hitting a ball below the front wall service line is considered an out while any ball that hits the front wall above the tin and falls onto the ground is considered good except for a serve.\nService Line - The service line divides the front wall.\nSingles Sideline - The singles sideline is the innermost line running lengthwise and determines the boundary of play for singles matches as well as the width of the service box.\nDoubles Sideline - The doubles sideline is the outermost line running lengthwise and is only used in doubles matches."],
+         "context": [""]
+        },
+        {"tag": "first_server",
+         "patterns": ["Who serves first?", "How do you decide who serve first?", "Can anybody serve first?","Can anybody serve?" ],
+         "responses": ["A flip of the coin or spin of the racket, known as the toss, determines which player or team serves first. If called correctly, the player or team that did so chooses who serves first. The player/team who did not call it correctly decides which side of the court they want to play on first."],
+         "context": [""]
+        },
+        {"tag": "serving_rules",
+         "patterns": ["what are the service rules?","Service rules?", "Can I stand anywhere for service", "Rules in services?", "Services rules are?", "Tell me about service rules"],
+         "responses": ["First Service - The server is allowed one chance to land their ball into the opposite box. Failing the service results in the loss of the point.\nLet - A let is given if the player could have reached the ball but could not do so due to unintentional obstruction of opposing player. You are allowed an infinite amount of lets, although it does not happen often.\nOrder of Service - The player/team who wins the toss serves first (team that wins chooses which player serves). If playing singles matches, players alternate between serving and receiving every game. If playing doubles matches, teams alternate between serving and receiving every game, with each player on a team getting the chance to serve before the cycle repeats."],
+         "context": [""]
+        },
+        {"tag": "Squash_games",
+         "patterns": ["Do you know Squash game types?", "what are the different types of games in Squash", "what are the games type in Squash?", "Explain Squash game types" ],
+         "responses": ["A Squash game can either be Singles or Doubles. Singles type involve a player playing against another player while Doubles type invlove a team of 2 players playing against another team of 2 players"],
+         "context": [""]
+        },
+	{"tag": "tie_break",
+         "patterns": ["what will happen if a game ends in same score","what is tie-break","How does tie-break works","How do you decide the winner when scores are the same?","tell me about tie break"],
+         "responses": ["If a score of 10-10 is reached and tie-break rules are used, a tie-break game is played in order to determine which player wins the set. For a tie-break game, the goal is to reach opposing+2 points first, and doing so results in the win of the set."],
+         "context": [""]
+        },
+        {"tag": "scoring",
+         "patterns": ["How is score counted?","what are the scoring rules","How is Squash score counted?","Explain score board","How do you count Squash scores?"],
+         "responses": ["Points - Smallest unit of measurement. Points increment from Love(0) upto game(11).\nGames - Games consist of 11 points each, and is won when a player reaches 11 points with at least a 1 point advantage.\nAdvantage Set - If a game score of 10-10 is reached and advantage set rules are used, a player/team can only win a set with a 2 game lead.\nMatches - A match is usually played as best of 3 or best of 5 sets."],
+         "context": [""]
+        },
+        {"tag": "match_format",
+         "patterns": ["What are the match formats in Squash","Do we just keep playing till we get tired","How many match sets are there in Squash","When do we stop playing?","How many set can be played?"],
+         "responses": ["Both Singes and Doubles are often played to the best of 5 sets, sometimes 3 sets are allowed."],
+         "context": [""]
+        }
+   ]
+}

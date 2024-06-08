@@ -1,0 +1,57 @@
+response,labels
+"Hello, I'm sure you love squash",12
+Happy to have you here,12
+Good to see you again,12
+"Hi there, how can I help?",12
+I guess Akshay sent you here,12
+"Hi, I'm  Squash BoT",16
+I'm Squash BoT developed by akshay,16
+Call me SqBoT,16
+Have a lovely Squash!,4
+Have a nice Squash playing time,4
+Enjoy the game!,4
+Have fun with the balls,4
+Happy to help!,13
+Any time!,13
+My pleasure,13
+Do enjoy the game,13
+Have fun on squash court,13
+"Sorry, kindly rephrase the question",2
+"Sorry, can't understand you",2
+Please give me more information,2
+Not sure I understand,2
+I can guide you through how to get started with squash,9
+"I know quiet some rules in squash, game types, top players and many more",1
+"I know some key words like tie-break, love, advantage and service to mention a few",1
+Ask me a question about squash and I will answer to the best of my knowledge,1
+"As at May 2021, 
+Men: Ali Farag, Mohammed Elshorbagy, Tarek Momen, Paul Coll and Karim Abdel Gawad .  
+Females: Nour El Sherbini, Nouran Gohar, Nour El Tayeb, Camille Serme, Hania El Hammamy",15
+"A ball must land within bounds for play to continue; if a player hits the ball outside of bounds, this results in the loss of the point for them.
+Players/teams cannot interfere with the opposing players.
+Players/teams cannot carry the ball or catch it with the hand.
+Players cannot hit the ball twice.
+Players must wait until the ball bounces from the front wall before they can return it.
+A player that does not return a live ball before it bounces twice loses the point.
+If the ball hits or touches the players, that counts as a penalty.
+Any ball that bounces on the lines of boundary are considered bad.
+A serve must bounce first in the opposing quarter before the receiving player can return it. ",6
+"Squash shoes, Squash clothes, Squash Ball, Squash headgear, Water bottles, Towels, Wrist bands and Kit bag",7
+"Baseline - The baselines are the lines that determines the boundaries of play going lengthwise. They are also where a player serves behind.
+Center Mark - The center mark determines the two halves of the Squash court. It mainly helps with service to determine where a player should stand prior to serving.
+Center Line - The center line divides the two service boxes into a distinct left service box and right service box. Landing a serve on the line is considered good.
+ Hitting a ball below the front wall service line is considered an out while any ball that hits the front wall above the tin and falls onto the ground is considered good except for a serve.
+Service Line - The service line divides the front wall.
+Singles Sideline - The singles sideline is the innermost line running lengthwise and determines the boundary of play for singles matches as well as the width of the service box.
+Doubles Sideline - The doubles sideline is the outermost line running lengthwise and is only used in doubles matches.",3
+"A flip of the coin or spin of the racket, known as the toss, determines which player or team serves first. If called correctly, the player or team that did so chooses who serves first. The player/team who did not call it correctly decides which side of the court they want to play on first.",5
+"First Service - The server is allowed one chance to land their ball into the opposite box. Failing the service results in the loss of the point.
+Let - A let is given if the player could have reached the ball but could not do so due to unintentional obstruction of opposing player. You are allowed an infinite amount of lets, although it does not happen often.
+Order of Service - The player/team who wins the toss serves first (team that wins chooses which player serves). If playing singles matches, players alternate between serving and receiving every game. If playing doubles matches, teams alternate between serving and receiving every game, with each player on a team getting the chance to serve before the cycle repeats.",11
+A Squash game can either be Singles or Doubles. Singles type involve a player playing against another player while Doubles type invlove a team of 2 players playing against another team of 2 players,0
+"If a score of 10-10 is reached and tie-break rules are used, a tie-break game is played in order to determine which player wins the set. For a tie-break game, the goal is to reach opposing+2 points first, and doing so results in the win of the set.",14
+"Points - Smallest unit of measurement. Points increment from Love(0) upto game(11).
+Games - Games consist of 11 points each, and is won when a player reaches 11 points with at least a 1 point advantage.
+Advantage Set - If a game score of 10-10 is reached and advantage set rules are used, a player/team can only win a set with a 2 game lead.
+Matches - A match is usually played as best of 3 or best of 5 sets.",10
+"Both Singes and Doubles are often played to the best of 5 sets, sometimes 3 sets are allowed.",8
